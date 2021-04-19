@@ -1,0 +1,29 @@
+package com.example.restapimongodb;
+
+import java.util.List;
+
+public class CustomizedResponse<T> {
+    private String message;
+    private List<T> body;
+
+    public CustomizedResponse(String message, List<T> body) {
+        this.message = message;
+        this.body = body;
+    }
+
+    public String getMessage() {
+        return message;
+    }
+
+    public List<T> getBody() {
+        return body;
+    }
+
+    public void setMessage(String message) {
+        this.message = message;
+    }
+
+    public void setBody(List<T> body) {
+        this.body = body;
+    }
+}
