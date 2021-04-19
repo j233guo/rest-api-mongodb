@@ -3,4 +3,4 @@
 Spring Boot API
 movie and user login
 
-need MongoDB connection string added in application.properties
+needs MongoDB connection string in application.properties
